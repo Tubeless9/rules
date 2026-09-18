@@ -1,6 +1,6 @@
 // https://raw.githubusercontent.com/xream/scripts/main/surge/modules/sub-store-scripts/sing-box/template.js
 // 修改版：空分组不生成，不使用 COMPATIBLE 占位 outbound
-//
+//2026年9月18日 14点23分
 // 示例：
 // #type=组合订阅&name=机场&outbound=🕳ℹ️all|all-auto🕳ℹ️hk|hk-auto🏷ℹ️港|hk|hongkong|🇭🇰🕳ℹ️tw|tw-auto🏷ℹ️台|tw|taiwan|🇹🇼🕳ℹ️jp|jp-auto🏷ℹ️日本|jp|japan|🇯🇵🕳ℹ️sg|sg-auto🏷ℹ️^(?!.*(?:us)).*(新|sg|singapore|🇸🇬)🕳ℹ️us|us-auto🏷ℹ️美|us|unitedstates|united states|🇺🇸
 //
@@ -90,7 +90,29 @@ if (url) {
 
 data = JSON.parse(data)
 
-outbounds = data.outbounds ?? []
+/*
+ * 关键修复：
+ *
+ * produceArtifact() 返回的 data.outbounds
+ * 本身可能已经包含 COMPATIBLE。
+ *
+ * 如果这里不删除：
+ *
+ * data.outbounds
+ *     ↓
+ * outbounds
+ *     ↓
+ * 后面的 config.outbounds.push(...outbounds)
+ *     ↓
+ * COMPATIBLE 又重新进入最终配置
+ *
+ * 所以必须在这里直接过滤。
+ */
+
+outbounds = (data.outbounds ?? []).filter(
+  outbound => outbound?.tag !== 'COMPATIBLE'
+)
+
 endpoints = data.endpoints ?? []
 
 proxies = [...outbounds, ...endpoints]
@@ -256,8 +278,6 @@ config.outbounds.forEach(outboundItem => {
 
 /*
  * ⑦ 删除没有节点的动态分组
- *
- * 这是本修改版最重要的部分。
  *
  * 官方版本：
  *
