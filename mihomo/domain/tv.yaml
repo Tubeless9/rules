@@ -1,10 +1,10 @@
 # NAME: tv
 # AUTHOR: 
 # REPO: 
-# UPDATED: 2026-09-19 13:47:20
+# UPDATED: 2026-09-20 15:51:00
 # DOMAIN: 0
-# DOMAIN-SUFFIX: 80
-# TOTAL: 80
+# DOMAIN-SUFFIX: 117
+# TOTAL: 117
 payload:
   - DOMAIN-SUFFIX,4k-av.com
   - DOMAIN-SUFFIX,1080zyku.com
@@ -86,3 +86,40 @@ payload:
   - DOMAIN-SUFFIX,smyyds.xyz
   - DOMAIN-SUFFIX,tddmp.com
   - DOMAIN-SUFFIX,huaqi.pro
+  - DOMAIN-SUFFIX,apittzy.com
+  - DOMAIN-SUFFIX,bttcj.com
+  - DOMAIN-SUFFIX,caiji26.com
+  - DOMAIN-SUFFIX,f2dcj6.com
+  - DOMAIN-SUFFIX,fhapi9.com
+  - DOMAIN-SUFFIX,jgczyapi.com
+  - DOMAIN-SUFFIX,kkzy.me
+  - DOMAIN-SUFFIX,kudouzy.com
+  - DOMAIN-SUFFIX,7777688.com
+  - DOMAIN-SUFFIX,meijuchong.com
+  - DOMAIN-SUFFIX,mygzycj.com
+  - DOMAIN-SUFFIX,sdszyapi.com
+  - DOMAIN-SUFFIX,secj8.com
+  - DOMAIN-SUFFIX,shayuapi.com
+  - DOMAIN-SUFFIX,caiji22.com
+  - DOMAIN-SUFFIX,caiji23.com
+  - DOMAIN-SUFFIX,caiji25.com
+  - DOMAIN-SUFFIX,gdlsp.com
+  - DOMAIN-SUFFIX,kxgav.com
+  - DOMAIN-SUFFIX,msnii.com
+  - DOMAIN-SUFFIX,xrbsp.com
+  - DOMAIN-SUFFIX,xx55zyapi.com
+  - DOMAIN-SUFFIX,zmcj88.com
+  - DOMAIN-SUFFIX,35ys.cc
+  - DOMAIN-SUFFIX,caiji26.com
+  - DOMAIN-SUFFIX,movurl.xyz
+  - DOMAIN-SUFFIX,malimali3.com
+  - DOMAIN-SUFFIX,mgzyz1.com
+  - DOMAIN-SUFFIX,taopianzy.com
+  - DOMAIN-SUFFIX,4000zy.com
+  - DOMAIN-SUFFIX,siguyy.com
+  - DOMAIN-SUFFIX,zwcoco.com
+  - DOMAIN-SUFFIX,58g8.com
+  - DOMAIN-SUFFIX,52zyapi.com
+  - DOMAIN-SUFFIX,lbapi9.com
+  - DOMAIN-SUFFIX,pgxdy.com
+  - DOMAIN-SUFFIX,lovctv.com
