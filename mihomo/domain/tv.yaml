@@ -1,9 +1,10 @@
 # NAME: tv
 # AUTHOR: 
 # REPO: 
-# UPDATED: 2026-09-20 15:51:00
+# UPDATED: 2026年9月21日 13点17分
 # DOMAIN: 0
-# DOMAIN-SUFFIX: 117
+# DOMAIN-SUFFIX: 116
+# DOMAIN-KEYWORD: 1
 # TOTAL: 117
 payload:
   - DOMAIN-SUFFIX,4k-av.com
@@ -66,7 +67,6 @@ payload:
   - DOMAIN-SUFFIX,bfzyapi.com
   - DOMAIN-SUFFIX,ckzy.me
   - DOMAIN-SUFFIX,dytt-cine.com
-  - DOMAIN-SUFFIX,ffzy-play9.com
   - DOMAIN-SUFFIX,hhzyapi.com
   - DOMAIN-SUFFIX,ikunzyapi.com
   - DOMAIN-SUFFIX,jinyingzy.com
@@ -123,3 +123,4 @@ payload:
   - DOMAIN-SUFFIX,lbapi9.com
   - DOMAIN-SUFFIX,pgxdy.com
   - DOMAIN-SUFFIX,lovctv.com
+  - DOMAIN-KEYWORD,ffzy-play
