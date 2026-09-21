@@ -123,6 +123,8 @@ payload:
   - DOMAIN-SUFFIX,lbapi9.com
   - DOMAIN-SUFFIX,pgxdy.com
   - DOMAIN-SUFFIX,lovctv.com
+  #橘猫影视播放直连
+  - DOMAIN-SUFFIX,lzv34.com
   #巨量资源播放直连
   - DOMAIN-SUFFIX,jimaoys95.com
   #非凡资源播放直连
