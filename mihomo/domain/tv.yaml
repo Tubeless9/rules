@@ -3,9 +3,9 @@
 # REPO: 
 # UPDATED: 2026年9月21日 13点17分
 # DOMAIN: 0
-# DOMAIN-SUFFIX: 116
+# DOMAIN-SUFFIX: 117
 # DOMAIN-KEYWORD: 2
-# TOTAL: 118
+# TOTAL: 119
 payload:
   - DOMAIN-SUFFIX,4k-av.com
   - DOMAIN-SUFFIX,1080zyku.com
@@ -123,6 +123,8 @@ payload:
   - DOMAIN-SUFFIX,lbapi9.com
   - DOMAIN-SUFFIX,pgxdy.com
   - DOMAIN-SUFFIX,lovctv.com
+  #巨量资源播放直连
+  - DOMAIN-SUFFIX,jimaoys95.com
   #非凡资源播放直连
   - DOMAIN-KEYWORD,ffzy-play
   #量子资源播放直连
